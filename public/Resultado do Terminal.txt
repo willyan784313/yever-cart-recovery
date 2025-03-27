@@ -1,0 +1,213 @@
+Last login: Thu Mar 27 17:45:22 on ttys000
+willyanadriano@MacBook-Air-de-Willyan ~ % mkdir -p ~/yever-cart-recovery/public  
+cd ~/yever-cart-recovery
+willyanadriano@MacBook-Air-de-Willyan yever-cart-recovery % nano server.js  
+willyanadriano@MacBook-Air-de-Willyan yever-cart-recovery % cat server.js
+require('dotenv').config();
+const express = require('express');
+const app = express();
+
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+  res.send('Sistema funcionando!');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
+
+
+willyanadriano@MacBook-Air-de-Willyan yever-cart-recovery % npm install express dotenv
+
+added 70 packages in 4s
+
+15 packages are looking for funding
+  run `npm fund` for details
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+willyanadriano@MacBook-Air-de-Willyan yever-cart-recovery % node server.js
+Servidor rodando em http://localhost:3000
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+^O^R
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
+^O^R
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
+
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+^O^R
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
+
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+^O^R
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
+
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+^O^R
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
+
+nano public/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Yever</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Painel de Carrinhos</h1>
+    <p>Funcionando com sucesso! ✅</p>
+</body>
+</html>
+
